@@ -1,14 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,900&display=swap");
 * {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
 
-button {
-  width: 150px;
-  height: 40px;
-  background-color: lightblue;
-  text-align: center; }
+.container {
+  max-width: 1140px;
+  padding: 0px 15px;
+  margin: 0px auto; }
 
-.active {
-  font-size: 20px;
-  color: red; }
+* {
+  font-family: 'Roboto',sans-serif; }
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #2f62b9;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #181b20;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: all 0.2s; }
+  .btn:hover {
+    background-color: #4a7cd1;
+    color: #fff; }
+  .btn-primary {
+    background-color: #2f62b9;
+    border-color: #2f62b9;
+    color: #fff; }
+    .btn-primary:hover {
+      background-color: #254c90; }
+  .btn-success {
+    background-color: #02ff81;
+    border-color: #02ff81;
+    color: #fff; }
+    .btn-success:hover {
+      background-color: #00ce67; }
+  .btn-danger {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color: #fff; }
+    .btn-danger:hover {
+      background-color: #cc0000; }
+  .btn-warning {
+    background-color: #ffee00;
+    border-color: #ffee00;
+    color: #fff; }
+    .btn-warning:hover {
+      background-color: #ccbe00; }
+  .btn-dark {
+    background-color: #181b20;
+    border-color: #181b20;
+    color: #fff; }
+    .btn-dark:hover {
+      background-color: #020203; }
+  .btn-outline-primary {
+    border-color: #2f62b9;
+    color: #2f62b9; }
+    .btn-outline-primary:hover {
+      background-color: #2f62b9; }
+  .btn-outline-success {
+    border-color: #02ff81;
+    color: #02ff81; }
+    .btn-outline-success:hover {
+      background-color: #02ff81; }
+  .btn-outline-danger {
+    border-color: #ff0000;
+    color: #ff0000; }
+    .btn-outline-danger:hover {
+      background-color: #ff0000; }
+  .btn-outline-warning {
+    border-color: #ffee00;
+    color: #ffee00; }
+    .btn-outline-warning:hover {
+      background-color: #ffee00; }
+  .btn-outline-dark {
+    border-color: #181b20;
+    color: #181b20; }
+    .btn-outline-dark:hover {
+      background-color: #181b20; }
+  .btn-block {
+    display: block;
+    width: 100%; }
