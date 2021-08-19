@@ -1,3 +1,4 @@
+
 import $ from '../core';
 
 $.prototype.addClass = function(...classNames){
